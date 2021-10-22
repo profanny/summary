@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <!-- <h1>FORMS - INPUTS</h1> -->
+
+        <!-- Inputs -->
+        <label for="input">
+            Input
+            <input id="input1" name="input" placeholder="input" type="number">
+        </label>
+
+        <!-- Inputs -->
+        <label for="input">
+            Input
+            <input id="input2" name="input" placeholder="input" type="number">
+        </label>
+
+        <!-- Select -->
+        <label>
+            Select
+            <select id="select">
+                <option value="" selected disabled>Select</option>
+                <option value="tambah">addition</option>
+                <option value="kurang">subtraction</option>
+                <option value="kali">multiplication </option>
+                <option value="bagi">division</option>
+            </select>
+        </label>
+
+        <div class="btn-container">
+            <button class="btn center" id="button">Submit</button>
+        </div>
+
+        <!-- Formgroup -->
+        <h2>Summary</h2>
+        <div class="formgroup">
+
+            <!-- Inputs -->
+            <label for="hasil">
+                <input id="hasil" name="input" placeholder="Summary" type="text" readonly>
+            </label>
+
+        </div><!-- /end .formgroup -->
+
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
