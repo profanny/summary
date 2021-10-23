@@ -5,15 +5,14 @@
 html {
     margin: 0;
     padding: 0;
-    background: #000;
 }
 
 body {
     margin: 0;
     padding: 0;
+    animation: bgcolor infinite 18s;
 }
 
-@charset "UTF-8";
 body {
   padding-top: 0 !important;
 }
@@ -92,6 +91,7 @@ p, h1, h2, h3, h4, h5 {
 
 h1, h2, h3, h4, h5 {
   font-weight: bold;
+  color: #fff;
 }
 
 html {
@@ -244,7 +244,7 @@ form h2 {
     padding-right: 0;
   }
 
-  .form_instructions label,
+.form_instructions label,
 .form_instructions p {
     width: 100%;
     float: left;
@@ -280,7 +280,7 @@ form:after,
 }
 form label,
 .form label {
-  color: #404040;
+  color: #fff;
   float: none;
   display: block;
   margin-left: auto;
@@ -1177,4 +1177,27 @@ input[type=number] {
 
 .error {
     border: 1px solid red !important;
+}
+
+
+
+@keyframes bgcolor {
+  0% {
+    background: rgba(74, 105, 189,1.0);
+  }
+  20% {
+    background: rgba(130, 204, 221,1.0);
+  }
+  40% {
+    background: rgba(120, 224, 143,1.0);
+  }
+  60% {
+    background: rgba(56, 173, 169,1.0);
+  }
+  80% {
+    background: rgba(10, 61, 98,1.0);
+  }
+  100% {
+    background: rgba(184, 233, 148,1.0);
+  }
 }
